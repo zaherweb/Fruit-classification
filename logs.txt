@@ -1,0 +1,14 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://172.28.0.12:8501
+  External URL: http://34.86.205.60:8501
+
+2023-04-02 11:32:54.993055: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-04-02 11:32:57.081926: E tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:266] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 1s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 1s/step
+  Stopping...
