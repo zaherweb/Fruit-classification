@@ -14,8 +14,26 @@ from keras.models import load_model
 from keras.models import model_from_json
 from keras.applications import imagenet_utils
 import numpy as np
+import os
 #from prediction import predict_type
 
+# Download file model file
+#% wget --no-check-certificate  -O "model.h5" "https://drive.google.com/uc?export=download&id=1Eph_kEy5vJDg79CORGhh4qUPHIkgSjzN"
+import requests
+
+url = "https://drive.google.com/uc?export=download&id=1Eph_kEy5vJDg79CORGhh4qUPHIkgSjzN"
+filename = "model.h5"
+
+
+# Check if the file already exists
+if os.path.exists(filename):
+    pass
+else:
+    # Download the file
+    response = requests.get(url)
+    response.raise_for_status() # raise an exception if response status is not OK (i.e. 200)
+    with open(filename, "wb") as f:
+        f.write(response.content)
 
 
 #define main classes that we have
