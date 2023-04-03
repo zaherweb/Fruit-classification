@@ -3,7 +3,7 @@ joblib
 streamlit
 Pillow
 scikit-image
-time
+python-time
 numpy
 keras
 os
