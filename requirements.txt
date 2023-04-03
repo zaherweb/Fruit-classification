@@ -1,7 +1,7 @@
 tensorflow
 joblib
 streamlit
-PIL
+Pillow
 skimage
 time
 numpy
