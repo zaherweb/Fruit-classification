@@ -35,7 +35,7 @@ MarkupSafe==2.1.2
 mdurl==0.1.2
 ml-dtypes==0.0.4
 networkx==3.0
-numpy==1.24.2
+numpy
 oauthlib==3.2.2
 opt-einsum==3.3.0
 packaging==23.0
