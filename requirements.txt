@@ -8,3 +8,4 @@ numpy
 keras
 os-sys
 requests
+--upgrade pip
