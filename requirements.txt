@@ -2,7 +2,7 @@ tensorflow
 joblib
 streamlit
 Pillow
-skimage
+scikit-image
 time
 numpy
 keras
